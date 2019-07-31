@@ -142,7 +142,6 @@ PRODUCT_PACKAGES += \
     AudioFX \
     Backgrounds \
     LineageSettingsProvider \
-    LineageSetupWizard \
     Eleven \
     ExactCalculator \
     Jelly \
