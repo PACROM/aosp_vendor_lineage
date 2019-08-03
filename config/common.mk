@@ -147,7 +147,8 @@ PRODUCT_PACKAGES += \
     Jelly \
     LockClock \
     TrebuchetQuickStep \
-    WeatherProvider
+    WeatherProvider \
+    Updater
 
 # Exchange support
 PRODUCT_PACKAGES += \
@@ -250,7 +251,7 @@ PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += vendor/lineage/overlay
 DEVICE_PACKAGE_OVERLAYS += vendor/lineage/overlay/common
 
 PRODUCT_VERSION_MAJOR = 1
-PRODUCT_VERSION_MINOR = 0.2
+PRODUCT_VERSION_MINOR = 0.3
 PRODUCT_VERSION_MAINTENANCE := 
 
 ifeq ($(TARGET_VENDOR_SHOW_MAINTENANCE_VERSION),true)
@@ -297,7 +298,7 @@ ifdef LINEAGE_BUILDTYPE
     endif
 else
     # If LINEAGE_BUILDTYPE is not defined, set to UNOFFICIAL
-    LINEAGE_BUILDTYPE := UNOFFICIAL
+    LINEAGE_BUILDTYPE := DEVELOPMENT
     LINEAGE_EXTRAVERSION :=
 endif
 
