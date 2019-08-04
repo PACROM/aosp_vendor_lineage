@@ -371,3 +371,4 @@ endif
 -include $(WORKSPACE)/build_env/image-auto-bits.mk
 -include vendor/lineage/config/partner_gms.mk
 -include vendor/gapps/config.mk
+-include vendor/pac/prebuilt_apps/config.mk
