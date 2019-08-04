@@ -5,7 +5,7 @@ PRODUCT_BRAND ?= PACROM
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     BUILD_UTC_DATE=0 \
-    ro.build.display.id=PQ3A.190705.003-pacrom.20190803.032451 test-keys
+    ro.build.display.id=PQ3A.190705.003-pacrom.$(shell date -u +%Y%m%d).032451 test-keys
 
 
 ifeq ($(PRODUCT_GMS_CLIENTID_BASE),)
